@@ -1,0 +1,150 @@
+/**************************************************** Tablet (768px bis 1024px) *****************************************************/
+@media (min-width: 768px) and (max-width: 1023px) {
+     body,
+    html {
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+
+    /* Header */
+    .hamburger {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 30px;
+        height: 21px;
+        cursor: pointer;
+        z-index: 5000;
+        position: fixed;
+        top: 30px;
+        right: 50px;
+    }
+
+    .hamburger span {
+        display: block;
+        height: 3px;
+        width: 100%;
+        background: #000000;
+        transition: all 0.3s ease;
+    }
+
+    .menu {
+        position: fixed;
+        top: 0;
+        right: -100%;
+        width: 80%;
+        max-width: 300px;
+        height: 100vh;
+        background: rgb(255, 132, 177);
+        box-shadow: -5px 0 15px rgba(0, 0, 0, 0.1);
+        transition: all 0.5s ease;
+        z-index: 4999;
+        padding: 80px 20px 20px;
+    }
+
+    .menu ul {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        padding: 0;
+        margin: 0;
+    }
+
+    nav ul li:nth-child(1) {
+        all: revert;
+        text-decoration: none;
+        list-style: none;
+    }
+
+    .menu-toggle:checked~.menu {
+        right: 0;
+    }
+
+    .menu-toggle:checked+.hamburger span:nth-child(1) {
+        transform: translateY(9px) rotate(45deg);
+    }
+
+    .menu-toggle:checked+.hamburger span:nth-child(2) {
+        display: none;
+    }
+
+    .menu-toggle:checked+.hamburger span:nth-child(3) {
+        transform: translateY(-9px) rotate(-45deg);
+    }
+
+    .overlay {
+        display: none;
+        background-color: rgba(128, 128, 128, 0.53);
+        width: 100%;
+        position: fixed;
+        top: 0;
+        right: 0;
+        height: 100%;
+    }
+
+    .menu-toggle:checked~.overlay {
+        display: block;
+    }
+
+    .flower {
+        position: absolute;
+        top: -10%;
+        left: 50%;
+        z-index: 4;
+    }
+
+    .flower-two {
+        display: none;
+
+    }
+
+    /* banner */
+    .banner {
+        all: revert;
+    display: flex;
+    align-items: center;
+    z-index: 1000;
+    padding: 30px 50px 100px 30px;
+}
+
+.banner p {
+    width: 400px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+}
+
+    /*  Our Special Dish  */
+    .desc-special-dish{
+        all: revert;
+        text-align: center;
+        width: 80%;
+        padding-left: 30px;
+        padding-right: 30px;
+        margin-bottom: 30px;
+        margin: 0 auto;
+        line-height: 1.5;
+    }
+
+    .imges-special-dish{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 50px;
+    }
+
+    .images{
+        margin: 0 auto;
+    }
+    .images figure{
+        width: 300px;
+    }
+
+    /* Gallery */
+    .main-gallery {
+    display: grid;
+    justify-content: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-bottom: 100px;
+
+}
+}
