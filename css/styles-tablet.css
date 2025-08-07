@@ -1,6 +1,7 @@
 /**************************************************** Tablet (768px bis 1024px) *****************************************************/
 @media (min-width: 768px) and (max-width: 1023px) {
-     body,
+
+    body,
     html {
         margin: 0 !important;
         padding: 0 !important;
@@ -101,20 +102,28 @@
     /* banner */
     .banner {
         all: revert;
-    display: flex;
-    align-items: center;
-    z-index: 1000;
-    padding: 30px 50px 100px 30px;
-}
+        display: flex;
+        align-items: center;
+        z-index: 1000;
+        padding: 30px 50px 100px 30px;
+    }
 
-.banner p {
-    width: 400px;
-    line-height: 1.5;
-    margin-bottom: 30px;
-}
+    .banner p {
+        width: 400px;
+        line-height: 1.5;
+        margin-bottom: 30px;
+    }
+
+    .banner>div>p{
+        font-size: 1.3em;
+
+    }
+     .banner>div>button>a{
+        font-size: 1.5em;
+    }
 
     /*  Our Special Dish  */
-    .desc-special-dish{
+    .desc-special-dish {
         all: revert;
         text-align: center;
         width: 80%;
@@ -123,28 +132,231 @@
         margin-bottom: 30px;
         margin: 0 auto;
         line-height: 1.5;
+        font-size: 1.3em;
+
     }
 
-    .imges-special-dish{
+    .special-dish h2{
+        font-size: 2em;
+    }
+
+    .imges-special-dish {
         display: grid;
         grid-template-columns: 1fr 1fr;
         gap: 50px;
     }
 
-    .images{
+    .images {
         margin: 0 auto;
     }
-    .images figure{
+
+    .images p{
+        font-size: 1.8em;
+    }
+
+    .images figure {
         width: 300px;
+        font-size: 1.3em;
+
     }
 
     /* Gallery */
     .main-gallery {
-    display: grid;
-    justify-content: center;
-    padding-left: 30px;
-    padding-right: 30px;
-    margin-bottom: 100px;
+        display: grid;
+        justify-content: center;
+        padding-left: 30px;
+        padding-right: 30px;
+        margin-bottom: 100px;
 
-}
+    }
+
+    .main-gallery h2{
+        font-size: 2em;
+    }
+
+    .main-gallery p{
+        font-size: 1.3em;
+
+    }
+
+    /* Populer */
+    .main-populer h2 {
+        font-size: 2em;
+    }
+
+    .pop-para h3{
+        font-size: 2em;
+    }
+    .pop-para p{
+        font-size: 1.3em;
+    }
+    .pop-one{
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .pop-two{
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .pop-three{
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    /* our-menu */
+    .our-menu {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .sub-our-menu {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+
+    }
+
+    .our-menu div h4{
+        font-size: 2em;
+    }
+
+    .our-menu div p{
+        font-size: 1.3em;
+    }
+
+    .menu-titel{
+        font-size: 1.8em;
+    }
+
+    .menu-para{
+        font-size: 1.3em;
+    }
+
+    .star p{
+        font-size: 1.5em;
+    }
+
+    .menu-img {
+        border-left: 1px solid black;
+        border-right: 1px solid black;
+        border-bottom: 1px solid black;
+        width: 98%;
+        background-color: white;
+    }
+
+    .menu-img img {
+        width: 100%;
+    }
+
+    .menu-img p {
+        width: 95%;
+        padding: 10px;
+    }
+
+    .our-menu>div>button {
+        display: none;
+    }
+
+    .mobile-button {
+        display: block;
+        margin-top: 20px;
+        border: none;
+        background-color: rgb(255, 132, 177);
+        padding: 10px;
+        padding-left: 15px;
+        padding-right: 15px;
+        border-radius: 100px;
+        transition: transform 0.5s ease;
+    }
+
+    .mobile-button a {
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+        font-size: 1.5em;
+    }
+
+    /* Reviews */
+    .main-reviews h2{
+        font-size: 1.8em;
+    }
+
+    .reviews-image div p:nth-child(1){
+        font-size: 1.5em;
+    }
+
+     .reviews-image p {
+        font-size: 1.3em;
+    }
+
+    /* About Me */
+    .sub-about {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 10%;
+    }
+
+    .sub-about img {
+        width: 38%;
+    }
+
+    .sub-about>div>h2 {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .sub-about>div>p {
+        text-align: center;
+        width: 500px;
+        font-size: 1.3em;
+    }
+
+    /* footer */
+    .main-footer{
+        font-size: 1.3em;
+    }
+
+    .sub-footer {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 20%;
+        padding-right: 100px;
+    }
+
+    .main-gps div p {
+        width: 200px;
+        font-size: 1.2em;
+    }
+    .contact-us{
+        font-size: 1.3em;
+    }
+
+    .contact-us span{
+        font-size: 1.5em;
+    }
+
+    .quick-links span{
+        font-size: 1.5em;
+    }
+
+    .quick-links a{
+        font-size: 1.3em;
+    }
+
+    .social-media span{
+        font-size: 1.5em;
+    }
+
+    .social-media a{
+        font-size: 1.3em;
+    }
 }
