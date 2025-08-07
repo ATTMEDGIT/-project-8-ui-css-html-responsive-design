@@ -16,6 +16,7 @@ html {
 
 body {
     background-color: rgb(255, 242, 225);
+    scroll-padding-top: 100px;
 }
 
 /* Header */
