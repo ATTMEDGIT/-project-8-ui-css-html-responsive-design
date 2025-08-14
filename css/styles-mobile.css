@@ -10,7 +10,7 @@
     }
 
     /* Header */
-    .header{
+    .header {
         background-color: rgb(0, 0, 0);
         position: fixed;
         width: 100%;
@@ -21,7 +21,7 @@
 
     }
 
-    .header a{
+    .header a {
         color: white;
     }
 
@@ -66,6 +66,12 @@
         gap: 30px;
         padding: 0;
         margin: 0;
+    }
+
+    .menu ul li a {
+        font-size: 1.3em;
+        display: block;
+        border-radius: revert;
     }
 
     nav ul li:nth-child(1) {
@@ -159,7 +165,7 @@
         font-size: 1.3em;
     }
 
-    .banner>div>button>a{
+    .banner>div>button>a {
         font-size: 1.5em;
     }
 
@@ -175,7 +181,7 @@
 
     }
 
-    .special-dish h2{
+    .special-dish h2 {
         font-size: 2em;
     }
 
@@ -185,11 +191,11 @@
         gap: 50px;
     }
 
-    .images p{
+    .images p {
         font-size: 2em;
     }
 
-    .images figure{
+    .images figure {
         font-size: 1.3em;
     }
 
@@ -199,11 +205,11 @@
         padding-right: 20px;
     }
 
-    .main-gallery h2{
+    .main-gallery h2 {
         font-size: 2em;
     }
 
-    .main-gallery p{
+    .main-gallery p {
         font-size: 1.3em;
 
     }
@@ -222,10 +228,11 @@
         font-size: 2em;
     }
 
-    .pop-para h3{
+    .pop-para h3 {
         font-size: 2em;
     }
-    .pop-para p{
+
+    .pop-para p {
         font-size: 1.3em;
     }
 
@@ -237,8 +244,8 @@
     }
 
     .pop-one img {
-    width: 99%;
-}
+        width: 99%;
+    }
 
     .pop-two {
         display: flex;
@@ -248,8 +255,8 @@
     }
 
     .pop-two img {
-    width: 99%;
-}
+        width: 99%;
+    }
 
     .pop-three {
         display: flex;
@@ -259,8 +266,8 @@
     }
 
     .pop-three img {
-    width: 99%;
-}
+        width: 99%;
+    }
 
     /* our-menu */
     .our-menu {
@@ -271,23 +278,23 @@
         padding-right: 30px;
     }
 
-    .our-menu div h4{
+    .our-menu div h4 {
         font-size: 2em;
     }
 
-    .our-menu div p{
+    .our-menu div p {
         font-size: 1.3em;
     }
 
-    .menu-titel{
+    .menu-titel {
         font-size: 1.8em;
     }
 
-    .menu-para{
+    .menu-para {
         font-size: 1.3em;
     }
 
-    .star p{
+    .star p {
         font-size: 1.5em;
     }
 
@@ -347,6 +354,18 @@
         padding-left: 20px;
     }
 
+    .reviews-image {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        align-items: start;
+
+    }
+
+    .reviews-image>div {
+        margin-left: revert;
+    }
+
     .reviews>div>img {
         width: 30%;
     }
@@ -356,7 +375,7 @@
         flex-direction: column;
     }
 
-    .reviews-image div p:nth-child(1){
+    .reviews-image div p:nth-child(1) {
         font-size: 1.5em;
     }
 
@@ -396,12 +415,14 @@
         text-align: center;
         width: 300px;
         font-size: 1.3em;
+
     }
 
     /* footer */
-    .main-footer{
+    .main-footer {
         font-size: 1.3em;
     }
+
     .sub-footer {
         display: flex;
         justify-content: space-between;
@@ -416,31 +437,32 @@
         gap: 30px;
     }
 
-    .main-gps div p {
-        width: 200px;
+    .gps>div>div>p {
+        width: 80%;
         font-size: 1.2em;
     }
-    .contact-us{
+
+    .contact-us {
         font-size: 1.3em;
     }
 
-    .contact-us span{
+    .contact-us span {
         font-size: 1.5em;
     }
 
-    .quick-links span{
+    .quick-links span {
         font-size: 1.5em;
     }
 
-    .quick-links a{
+    .quick-links a {
         font-size: 1.3em;
     }
 
-    .social-media span{
+    .social-media span {
         font-size: 1.5em;
     }
 
-    .social-media a{
+    .social-media a {
         font-size: 1.3em;
     }
 
@@ -469,7 +491,7 @@
     }
 
     /* Header */
-    .header{
+    .header {
         background-color: rgb(0, 0, 0);
         position: fixed;
         width: 100%;
@@ -480,9 +502,10 @@
 
     }
 
-    .header a{
+    .header a {
         color: white;
     }
+
     .hamburger {
         display: flex;
         flex-direction: column;
@@ -516,6 +539,12 @@
         transition: all 0.5s ease;
         z-index: 4999;
         padding: 80px 20px 20px;
+    }
+
+    .menu ul li a {
+        font-size: 1.3em;
+        display: block;
+        border-radius: revert;
     }
 
     .menu ul {
@@ -609,7 +638,7 @@
         font-size: 1.3em;
     }
 
-    .banner>div>button>a{
+    .banner>div>button>a {
         font-size: 1.5em;
     }
 
@@ -622,7 +651,7 @@
         padding-right: 30px;
         margin-bottom: 30px;
         margin: 0 auto;
-        line-height: 1.5;        
+        line-height: 1.5;
         font-size: 1.3em;
 
     }
@@ -633,15 +662,15 @@
         gap: 50px;
     }
 
-    .special-dish h2{
+    .special-dish h2 {
         font-size: 2em;
     }
 
-    .images p{
+    .images p {
         font-size: 2em;
     }
 
-    .images figure{
+    .images figure {
         font-size: 1.3em;
     }
 
@@ -654,11 +683,11 @@
         margin-bottom: 100px;
     }
 
-     .main-gallery h2{
+    .main-gallery h2 {
         font-size: 2em;
     }
 
-    .main-gallery p{
+    .main-gallery p {
         font-size: 1.3em;
 
     }
@@ -682,11 +711,11 @@
         font-size: 2em;
     }
 
-    .pop-para h3{
+    .pop-para h3 {
         font-size: 2em;
     }
 
-    .pop-para p{
+    .pop-para p {
         font-size: 1.3em;
     }
 
@@ -720,23 +749,23 @@
         padding-right: 30px;
     }
 
-    .our-menu div h4{
+    .our-menu div h4 {
         font-size: 2em;
     }
 
-    .our-menu div p{
+    .our-menu div p {
         font-size: 1.3em;
     }
 
-     .menu-titel{
+    .menu-titel {
         font-size: 1.8em;
     }
 
-    .menu-para{
+    .menu-para {
         font-size: 1.3em;
     }
 
-    .star p{
+    .star p {
         font-size: 1.5em;
     }
 
@@ -807,7 +836,7 @@
         flex-direction: column;
     }
 
-    .reviews-image div p:nth-child(1){
+    .reviews-image div p:nth-child(1) {
         font-size: 1.5em;
     }
 
@@ -851,7 +880,7 @@
     }
 
     /* footer */
-    .main-footer{
+    .main-footer {
         font-size: 1.3em;
     }
 
@@ -861,32 +890,32 @@
         gap: 50px;
     }
 
-    .main-gps div p {
-        width: 200px;
+    .gps>div>div>p {
+        width: 80%;
         font-size: 1.2em;
     }
 
-    .contact-us{
+    .contact-us {
         font-size: 1.3em;
     }
 
-    .contact-us span{
+    .contact-us span {
         font-size: 1.5em;
     }
 
-    .quick-links span{
+    .quick-links span {
         font-size: 1.5em;
     }
 
-    .quick-links a{
+    .quick-links a {
         font-size: 1.3em;
     }
 
-    .social-media span{
+    .social-media span {
         font-size: 1.5em;
     }
 
-    .social-media a{
+    .social-media a {
         font-size: 1.3em;
     }
 

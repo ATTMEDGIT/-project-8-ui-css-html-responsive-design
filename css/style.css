@@ -290,7 +290,7 @@ header::after {
 
 .pop-one p {
     line-height: 1.5;
-    
+
 }
 
 .pop-para h3 {
@@ -358,13 +358,14 @@ header::after {
     width: 250px;
 }
 
-.menu-titel{
+.menu-titel {
     font-weight: bold;
 }
 
 .menu-img p {
     width: 290px;
     padding: 10px;
+    line-height: 1.5;
 }
 
 .our-menu h4 {
